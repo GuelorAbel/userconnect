@@ -1,0 +1,15 @@
+/* les dépendances de tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* design global */
+#root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
